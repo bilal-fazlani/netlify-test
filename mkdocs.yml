@@ -1,0 +1,42 @@
+site_name: My Test Website
+strict: true
+
+theme:
+  features:
+    - navigation.tabs
+    - nagivation.instant
+    - navigation.top
+    - navigation.tracking
+  name: 'material'
+
+markdown_extensions:
+  - md_in_html
+  - def_list
+  - admonition
+  - attr_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde  
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.escapeall:
+      nbsp: true
+  - pymdownx.magiclink  
+  - pymdownx.smartsymbols
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: "#"   
