@@ -7,4 +7,4 @@ name = "pypi"
 mkdocs-material = "==8.0.2"
 
 [requires] # Here goes your required Python version.
-python_version = "3.9"
+python_version = "3.8"
